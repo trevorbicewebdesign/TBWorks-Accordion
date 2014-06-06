@@ -55,7 +55,10 @@ var worksAccordion = new Class({
         }, this);
         if (this.options.open == 'first')(function () {
             this.slideIn(0);
-        }).delay(1, this)
+        }).delay(1, this);
+	   window.addEvent('resize', function(){
+		   $$('dt.active')[0].getNext().setStyle( 'height', ($$('dt.active')[0].getNext().getElements("dd")[0].getComputedSize().totalHeight ) + 'px'  );
+	   });
     },
     toggle: function (i) {	
 	
