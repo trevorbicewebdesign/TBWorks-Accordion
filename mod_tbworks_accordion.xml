@@ -24,7 +24,7 @@
 			<a href="http://webdesign.trevorbice.com/" target="_blank">
 			<img src="../media/tbworks/images/tbwebdesignlogo.png"/>
 			</a>
-			</td>s
+			</td>
 			<td>
 			</td>
 			</tr>
@@ -36,7 +36,6 @@
 		<filename module="mod_tbworks_accordion">mod_tbworks_accordion.php</filename>
 		<filename>mod_tbworks_accordion.xml</filename>
 		<filename>helper.php</filename>
-		<filename>changelog.php</filename>
 		<filename>index.html</filename>
 		<folder>fields</folder>
 		<folder>tmpl</folder>
