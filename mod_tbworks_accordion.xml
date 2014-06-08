@@ -35,6 +35,7 @@
 	<files>
 		<filename module="mod_tbworks_accordion">mod_tbworks_accordion.php</filename>
 		<filename>mod_tbworks_accordion.xml</filename>
+		<filename>lists.php</filename>
 		<filename>helper.php</filename>
 		<filename>index.html</filename>
 		<folder>fields</folder>
